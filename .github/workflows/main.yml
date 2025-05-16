@@ -27,5 +27,5 @@ jobs:
     - name: Build, tag, and push Docker image
       run: |
         docker build -t react-app .
-        docker tag react-app:latest 156583401640.dkr.ecr.ap-south-1.amazonaws.com/react-repo:latest
-        docker push 156583401640.dkr.ecr.ap-south-1.amazonaws.com/react-repo:latest
+        docker tag react-app:latest 156583401640.dkr.ecr.ap-south-1.amazonaws.com/day1:latest
+        docker push 156583401640.dkr.ecr.ap-south-1.amazonaws.com/day1:latest
